@@ -4,7 +4,6 @@ const gifResult = document.querySelector(".gif-result");
 const heartLoader = document.querySelector(".cssload-main");
 const yesBtn = document.querySelector(".js-yes-btn");
 const noBtn = document.querySelector(".js-no-btn");
-
 // /change the postion of no button
 noBtn.addEventListener("mouseover", () => {
   const newX = Math.floor(Math.random() * questionContainer.offsetWidth);
